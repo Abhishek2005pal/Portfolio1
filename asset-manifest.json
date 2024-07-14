@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.fea193c4.js",
+    "static/media/Indiagate.jpg": "/portfolio/static/media/Indiagate.94a2bb38d07cd1853f5e.jpg",
+    "static/media/Office.jpg": "/portfolio/static/media/Office.9ff3fda31ab994b6111e.jpg",
+    "static/media/Abhishek_Resume.pdf": "/portfolio/static/media/Abhishek_Resume.2c589ae23e2a0185a2b2.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.fea193c4.js.map": "/portfolio/static/js/main.fea193c4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fea193c4.js"
+  ]
+}
