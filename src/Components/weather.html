@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Search.." class="input-box">
+               
+                <button id="search-button" class="fas fa-search">
+                </button>
+                
+              </div>
+        </div>
+
+        <div class="location-not-found">
+              <h1>Sorry,Location not found!!</h1>
+             
+              <img src="data:image/png;base64,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" alt="Location not found">
+        </div>
+        
+      <div class="weather-body">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png"alt="Weather image"class="weather-img" width="100px"height
+            ="200px">
+            <div class="weather-box">
+                <p class="temperature">25 <sup>°C</sup></p>
+                <p class="description">Light rain</p>
+            </div>
+            
+       
+       <div class="weather-details">
+              <div class="humidity">
+                  <i class="fa-solid fa-droplet"></i>
+                   <div class="text"> 
+                     <span  id="humidity">45%</span>
+                     <p>Humidity</p>
+                   </div>
+              </div>
+        
+           
+              <div class="wind">
+                 <i class="fa-solid fa-wind"></i>
+                   <div class="text"> 
+                     <span id="wind-speed">12KM/Hr</span>
+                     <p>Wind-speed</p>
+                   </div>
+              </div>  
+        </div>   
+     </div>
+  </div>
+    <script src="weather.js"></script>
+   
+     <script src="https://kit.fontawesome.com/6eaedd804a.js" crossorigin="anonymous"></script>
+</body>
+</html>
